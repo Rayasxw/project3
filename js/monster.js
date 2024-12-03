@@ -6,6 +6,7 @@ window.requestAnimFrame = () => {
     );
 };
 
+
 function init(elemId) {
     let canvas = document.getElementById(elemId),
         c = canvas.getContext("2d"),

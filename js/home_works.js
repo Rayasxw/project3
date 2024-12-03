@@ -20,13 +20,14 @@ gmailButton.onclick = () => {
 
 // MOVE BLOCK
 
+const parentBlock = document.querySelector(".parent_block");
 const childBlock = document.querySelector(".child_block");
+const maxWidth = parentBlock.offsetWidth - childBlock.offsetWidth;
 
 let positionX = 0;
-let parentBlock = 450;
 
 const moveBlock = () => {
-    if(positionX < parentBlock) {
+    if(positionX < maxWidth) {
         childBlock.style.left = `${positionX}px`
         positionX++
     }
