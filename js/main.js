@@ -22,6 +22,7 @@ const setRandomColors = () => {
 }
 
 
+
 window.onload = () => setRandomColors()
 window.onkeydown = (event) => {
     if (event.code.toLowerCase() === 'space') {

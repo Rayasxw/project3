@@ -14,4 +14,5 @@ phoneButton.onclick = () => {
         phoneResult.innerHTML = 'Invalid for number'
         phoneResult.style.color = 'red'
     }
+
 }
