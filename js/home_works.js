@@ -35,6 +35,7 @@ const moveBlock = () => {
     if(direction === 1){
         if(positionX < maxWidth) {
             childBlock.style.left = `${positionX}px`
+
             positionX++
         }else {
             direction = 2;
