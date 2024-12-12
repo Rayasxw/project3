@@ -94,9 +94,8 @@ const stopTimer = () => {
 }
 const resetTimer = () => {
     clearInterval(intervalId)
-    secondsValue = 0
+    secondsValue = 0;
     seconds.innerHTML = secondsValue
-    isRunning = false
 }
 
 document.querySelector('#start').addEventListener('click', startTimer)
