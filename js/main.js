@@ -71,6 +71,7 @@ next.onclick = () => {
     showSlide(index)
 }
 
+
 prev.onclick = () => {
     index > 0 ? index-- : index = slides.length - 1
     hideSlide()

@@ -97,7 +97,6 @@ const resetTimer = () => {
     secondsValue = 0;
     seconds.innerHTML = secondsValue
 }
-
 document.querySelector('#start').addEventListener('click', startTimer)
 document.querySelector('#stop').addEventListener('click', stopTimer)
 document.querySelector('#reset').addEventListener('click', resetTimer)

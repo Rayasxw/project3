@@ -1,0 +1,168 @@
+[1mdiff --git a/css/core.css b/css/core.css[m
+[1mindex f077297..32b318c 100644[m
+[1m--- a/css/core.css[m
+[1m+++ b/css/core.css[m
+[36m@@ -8,6 +8,7 @@[m
+     width: 1200px;[m
+     margin: 0 auto;[m
+ }[m
+[32m+[m
+ body {[m
+     font-family: "Britannic Bold", sans-serif;[m
+     background: #c2d0d0;[m
+[1mdiff --git a/css/home_works.css b/css/home_works.css[m
+[1mindex 3a8b426..06fb1d0 100644[m
+[1m--- a/css/home_works.css[m
+[1m+++ b/css/home_works.css[m
+[36m@@ -6,7 +6,6 @@[m
+     padding: 100px 0;[m
+ }[m
+ [m
+[31m-[m
+ .inner_gmail_block {[m
+     margin-top: 50px;[m
+     display: flex;[m
+[1mdiff --git a/css/lessons.css b/css/lessons.css[m
+[1mindex aed2e20..442854a 100644[m
+[1m--- a/css/lessons.css[m
+[1m+++ b/css/lessons.css[m
+[36m@@ -5,6 +5,7 @@[m
+     background: black;[m
+     padding: 100px 0;[m
+ }[m
+[32m+[m
+ .inner_phone_block {[m
+     margin-top: 50px;[m
+     display: flex;[m
+[1mdiff --git a/css/monster.css b/css/monster.css[m
+[1mindex c9bfb7c..1ad1676 100644[m
+[1m--- a/css/monster.css[m
+[1m+++ b/css/monster.css[m
+[36m@@ -10,7 +10,6 @@[m [mhtml {[m
+     position: static !important;[m
+ }[m
+ [m
+[31m-[m
+ .buymeacoffee {[m
+     text-decoration: none;[m
+     position: fixed;[m
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mindex e21c125..6da85c7 100644[m
+[1m--- a/css/style.css[m
+[1m+++ b/css/style.css[m
+[36m@@ -10,7 +10,6 @@[m
+     top: 0;[m
+     z-index: 2;[m
+ }[m
+[31m-[m
+ .inner_header {[m
+     height: 100%;[m
+     display: flex;[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b1d38b2..2b79436 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -66,6 +66,7 @@[m
+                             <a href="https://learn.javascript.ru/recursion" target="_blank">узнать подробнее</a>[m
+                         </div>[m
+                     </div>[m
+[32m+[m
+                     <div class="slide">[m
+                         <div class="slide_card">[m
+                             <h3>json</h3>[m
+[1mdiff --git a/js/home_works.js b/js/home_works.js[m
+[1mindex 9c95817..2462b3d 100644[m
+[1m--- a/js/home_works.js[m
+[1m+++ b/js/home_works.js[m
+[36m@@ -97,7 +97,6 @@[m [mconst resetTimer = () => {[m
+     secondsValue = 0;[m
+     seconds.innerHTML = secondsValue[m
+ }[m
+[31m-[m
+ document.querySelector('#start').addEventListener('click', startTimer)[m
+ document.querySelector('#stop').addEventListener('click', stopTimer)[m
+ document.querySelector('#reset').addEventListener('click', resetTimer)[m
+[1mdiff --git a/js/lesson.js b/js/lesson.js[m
+[1mindex b47c137..f487a84 100644[m
+[1m--- a/js/lesson.js[m
+[1m+++ b/js/lesson.js[m
+[36m@@ -15,6 +15,7 @@[m [mphoneButton.onclick = () => {[m
+         phoneResult.style.color = 'red'[m
+     }[m
+ }[m
+[32m+[m
+ /// TAB SLIDER[m
+ const  tabContentBlocks = document.querySelectorAll('.tab_content_block')[m
+ const tabs = document.querySelectorAll('.tab_content_item')[m
+[1mdiff --git a/js/main.js b/js/main.js[m
+[1mindex 7607d7b..587833b 100644[m
+[1m--- a/js/main.js[m
+[1m+++ b/js/main.js[m
+[36m@@ -71,6 +71,7 @@[m [mnext.onclick = () => {[m
+     showSlide(index)[m
+ }[m
+ [m
+[32m+[m
+ prev.onclick = () => {[m
+     index > 0 ? index-- : index = slides.length - 1[m
+     hideSlide()[m
+[1mdiff --git a/js/modal.js b/js/modal.js[m
+[1mindex e742086..ed86cf9 100644[m
+[1m--- a/js/modal.js[m
+[1m+++ b/js/modal.js[m
+[36m@@ -12,6 +12,7 @@[m [mconst closeModal = () => {[m
+     modal.style.display = 'none'[m
+     document.body.style.overflow = ''[m
+ }[m
+[32m+[m
+ modalTrigger.onclick = openModal[m
+ modalCloseButton.onclick = closeModal[m
+ [m
+[1mdiff --git a/js/monster.js b/js/monster.js[m
+[1mindex 9861fb3..f545bdf 100644[m
+[1m--- a/js/monster.js[m
+[1m+++ b/js/monster.js[m
+[36m@@ -6,7 +6,6 @@[m [mwindow.requestAnimFrame = () => {[m
+     );[m
+ };[m
+ [m
+[31m-[m
+ function init(elemId) {[m
+     let canvas = document.getElementById(elemId),[m
+         c = canvas.getContext("2d"),[m
+[1mdiff --git a/pages/home_works.html b/pages/home_works.html[m
+[1mindex 1be9bbc..b39254e 100644[m
+[1m--- a/pages/home_works.html[m
+[1m+++ b/pages/home_works.html[m
+[36m@@ -9,7 +9,6 @@[m
+ </head>[m
+ <body>[m
+ [m
+[31m-[m
+ <div class="wrapper">[m
+     <div class="header">[m
+         <div class="container">[m
+[1mdiff --git a/pages/lessons.html b/pages/lessons.html[m
+[1mindex 2d6bfdf..cac5f6e 100644[m
+[1m--- a/pages/lessons.html[m
+[1m+++ b/pages/lessons.html[m
+[36m@@ -48,6 +48,7 @@[m
+         </div>[m
+     </div>[m
+ [m
+[32m+[m
+     <div class="tab_slider">[m
+         <div class="container">[m
+             <h3>tab slider</h3>[m
+[1mdiff --git a/pages/monster.html b/pages/monster.html[m
+[1mindex 09cf555..7d3425d 100644[m
+[1m--- a/pages/monster.html[m
+[1m+++ b/pages/monster.html[m
+[36m@@ -48,6 +48,7 @@[m
+         </div>[m
+     </div>[m
+ </div>[m
+[32m+[m
+ </body>[m
+ <script src="../js/monster.js"></script>[m
+ <script src="../js/modal.js"></script>[m
