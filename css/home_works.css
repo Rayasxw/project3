@@ -229,3 +229,11 @@
     height: 100%;
     object-fit: cover;
 }
+.character-card h3 {
+    color: white;
+}
+
+.character-card p {
+    color: white;
+}
+
