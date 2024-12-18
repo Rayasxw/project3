@@ -111,7 +111,7 @@ xhr.open('GET', '../data/persons.json');
 
 xhr.onload = function() {
     if (xhr.status === 200) {
-        const persons = JSON.parse(xhr.responseText);
+        const persons = JSON.parse(xhr.response);
         persons.forEach(person => {
             const characterCard = document.createElement('div');
             characterCard.className = 'character-card';
@@ -156,7 +156,7 @@ xhr2.open('GET', '../data/any.json');
 
 xhr2.onload = () => {
     if (xhr2.status === 200) {
-        const data = JSON.parse(xhr2.responseText);
+        const data = JSON.parse(xhr2.response);
         console.log('Данные :', data);
     } else {
          console.log('Ошибка при загрузке данных');
