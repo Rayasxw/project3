@@ -25,9 +25,9 @@ body {
     height: 50px;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid var(--orange);
+    border: 1px solid #fe59c2;
     background: black;
-    color: var(--orange);
+    color: #fe59c2;
     border-radius: 8px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .btn:active {
     background: #56585D;
-    border: 2px solid var(--orange);
+    border: 2px solid #fe59c2;
 }
 
 a {
