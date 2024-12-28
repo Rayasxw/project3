@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "title": "Сезон 1",
+        "description": "Описание сезона 1",
+        "episodes": [
+            {
+                "id": 1,
+                "title": "1 серия",
+                "description": "Для Вас, через 2000 лет: Падение Шиганшиной, Часть 1",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-1-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-1/"
+            },
+            {
+                "id": 2,
+                "title": "2 серия",
+                "description": "Тот день: Падение Шиганшиной, Часть 2",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-2-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-2/"
+            },
+            {
+                "id": 3,
+                "title": "3 серия",
+                "description": "Тусклый свет Среди Отчаяния: Возвращение человечества, Часть 1",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-3-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-3/"
+            },
+            {
+                "id": 4,
+                "title": "4 серия",
+                "description": "Ночь церемонии закрытия: Возвращение человечества, Часть 2",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-4-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-4/"
+            },
+            {
+                "id": 5,
+                "title": "5 серия",
+                "description": "Первая битва: Борьба за Трост, Часть 1",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-5-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-5/"
+            },
+            {
+                "id": 6,
+                "title": "6 серия",
+                "description": "Мир, который увидела Девушка: Борьба за Трост, Часть 2",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-6-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-6/"
+            },
+            {
+                "id": 7,
+                "title": "7 серия",
+                "description": "Малый Клинок: Борьба за Трост, Часть 3",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-7-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-7/"
+            },
+            {
+                "id": 8,
+                "title": "8 серия",
+                "description": "Я Слышу Биение Его Сердца: Борьба за Трост, Часть 4",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-1-sezon-8-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-1/episode-8/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Сезон 2",
+        "description": "Описание сезона 2",
+        "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-1-seriya-560x316.jpg",
+        "episodes": [
+            {
+                "id": 1,
+                "title": "1 серия",
+                "description": "Описание эпизода 1",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-1-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-1/"
+            },
+            {
+                "id": 2,
+                "title": "Эпизод 2",
+                "description": "Описание эпизода 2",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-2-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-2/"
+            },
+            {
+                "id": 3,
+                "title": "3 серия",
+                "description": "Описание эпизода 3",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-3-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-3/"
+            },
+            {
+                "id": 4,
+                "title": "4 серия",
+                "description": "Описание эпизода 4",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-4-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-4/"
+            },
+            {
+                "id": 5,
+                "title": "5 серия",
+                "description": "Описание эпизода 5",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-5-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-5/"
+            },
+            {
+                "id": 6,
+                "title": "6 серия",
+                "description": "Описание эпизода 6",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-6-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-6/"
+            },
+            {
+                "id": 7,
+                "title": "7 серия",
+                "description": "Описание эпизода 7",
+                "image": "https://ataka-titanov-tv.com/wp-content/uploads/2023/05/ataka-titanov-2-sezon-7-seriya-560x316.jpg",
+                "url": "https://ataka-titanov-tv.com/season-2/episode-7/"
+            },
+            {
+                "id": 8,
+                "title": "8 серия",
+                "description": "Описание эпизода 8",
+                "image": "image/episode8.jpg"
+            }
+        ]
+    }
+
+]

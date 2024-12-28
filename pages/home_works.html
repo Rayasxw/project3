@@ -15,7 +15,7 @@
             <div class="inner_header">
                 <a href="../index.html">
                     <div class="logotype">
-                        <h2>Java<span>Script</span></h2>
+                        <img src="../images/logo.png" alt="logo">
                     </div>
                 </a>
                 <ul class="menu">
@@ -26,6 +26,12 @@
                         <a href="../pages/lessons.html">Lessons</a>
                     </li>
                     <li class="menu_link">
+                        <a href="../pages/character.html">Characters</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/card.html">Cards</a>
+                    </li>
+                    <li class="menu_link">
                         <a href="https://t.me/NurDinBuy16" target="_blank">Send message</a>
                     </li>
                 </ul>
@@ -34,75 +40,50 @@
         </div>
     </div>
 
-    <div class="gmail_block">
+
+    <div class="floor_clock">
         <div class="container">
-            <h3>Home work 1 (part 1)</h3>
-            <div class="inner_gmail_block">
-                <div class="form_gmail">
-                    <label for="gmail_input"></label>
-                    <input type="text" id="gmail_input" placeholder="your gmail">
-                    <button class="btn" id="gmail_button">Check gmail</button>
-                    <span class="checker" id="gmail_result"></span>
+            <h3>Floor Clock</h3>
+            <div class="clock_face">
+                <div class="pendulum">
+                    <div class="pendulum_block"></div>
+                </div>
+                <div class="time_display">
+                    <div class="time_block">
+                        <div class="interval" id="seconds">0</div>
+                    </div>
+                </div>
+                <div class="clock_controls">
+                    <button class="btn" id="start">Start</button>
+                    <button class="btn" id="stop">Stop</button>
+                    <button class="btn" id="reset">Reset</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="move_block">
-        <div class="container">
-            <h3>Home work 1 (part 2)</h3>
-            <div class="inner_move_block">
-                <div class="parent_block">
-                    <div class="child_block"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="stopwatch">
-        <div class="container">
-            <h3>Home work 2 </h3>
-            <div class="time">
-                <div class="time_block">
-                    <div class="interval" id="seconds">0</div>
-                </div>
-            </div>
-            <div class="time_buttons">
-                <button class="btn" id="start">Start</button>
-                <button class="btn" id="stop">Stop</button>
-                <button class="btn" id="reset">Reset</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="characters">
-        <div class="container">
-            <div class="characters-list">
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="container">
-            <a href="https://www.instagram.com/nurdinbuy/" target="_blank">
-                <div class="inner_footer">
-                    <h2>Made by NurDinBuy</h2>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
 
 <div class="modal">
     <div class="modal_dialog">
         <div class="modal_content">
             <form action="#">
                 <div class="modal_close">&times;</div>
-                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
-                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
-                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
-                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                <div class="modal_title">Scout Regiment Recruitment Form</div>
+                <input required placeholder="Cadet Name" name="name" type="text" class="modal_input">
+                <input required placeholder="Squad Number" name="phone" type="phone" class="modal_input">
+                <div class="gmail_block">
+                    <div class="container">
+                        <h3>Message Verification System</h3>
+                        <div class="inner_gmail_block">
+                            <div class="form_gmail">
+                                <label for="gmail_input"></label>
+                                <input type="text" id="gmail_input" placeholder="military email">
+                                <button class="btn" id="gmail_button">Verify Code</button>
+                                <span class="checker" id="gmail_result"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn_dark btn_min">Submit Application</button>
             </form>
         </div>
     </div>
@@ -111,4 +92,5 @@
 </body>
 <script src="../js/home_works.js"></script>
 <script src="../js/modal.js"></script>
+<script src="../js/game.js"></script>
 </html>
