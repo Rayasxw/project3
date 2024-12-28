@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Eren Yeager",
+        "japanese_name": "ユージン・イェーガー",
+        "image": "../images/eren_thumb.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mikasa Ackerman",
+        "japanese_name": "ミカサ・アッカーマン",
+        "image": "../images/mikasa_thumb.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Armin Arlert",
+        "japanese_name": "アーミン・アールレット",
+        "image": "../images/armin_thumb.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Levi Ackerman",
+        "japanese_name": "リヴァイ・アッカーマン",
+        "image": "../images/levi_thumb.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jean Kirschtein",
+        "japanese_name": "ジャン・キルシュタイン",
+        "image": "../images/jean_thumb.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Reiner Braun",
+        "japanese_name": "レイナー・ブラウン",
+        "image": "../images/reiner_thumb.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Connie Springer",
+        "japanese_name": "コニー・スプリンガー",
+        "image": "../images/connie_thumb.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Zeke Yeager",
+        "japanese_name": "ゼイケ・イェーガー",
+        "image": "../images/zeke_thumb.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Annie Leonhart",
+        "japanese_name": "アニー・レオンハルト",
+        "image": "../images/annie_thumb.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Gabi Braun",
+        "japanese_name": "ガビ・ブラウン",
+        "image": "../images/gabi_thumb.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Pieck Fingerhut",
+        "japanese_name": "ピッケ・フィンガーハート",
+        "image": "../images/pieck_thumb.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Falco Grice",
+        "japanese_name": "ファルコ・グリス",
+        "image": "../images/falco_thumb.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Historia Reiss",
+        "japanese_name": "ヒストリア・リース",
+        "image": "../images/historia_thumb.jpg"
+    }
+]
