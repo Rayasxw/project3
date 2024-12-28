@@ -1,0 +1,16 @@
+{
+  "video": [
+      {
+          "title": "1 сезон",
+          "video": "../video/trailer__background.mp4"
+      },
+      {
+          "title": "2 сезон",
+          "video": "../video/2season1.mp4"
+      },
+      {
+          "title": "3 сезон",
+          "video": "../video/3season.mp4"
+      }
+    ]
+}

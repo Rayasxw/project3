@@ -30,7 +30,28 @@ const handleScroll = () => {
 
 window.addEventListener('scroll', handleScroll);
 
-setTimeout(() => {
-    openModal()
-}, 10000)
+// setTimeout(() => {
+//     openModal()
+// }, 10000)
 
+
+const token = '8174574665:AAEcud1RbSICMHbt3K2kzUugUFXgLB-k5g4'
+
+const form = document.querySelector('form')
+
+const chat_id = '@raianaBotBot'
+
+const URL_API = `https://api.telegram.org/bot${token}/sendMessage`;
+form.onsubmit = (event) => {
+    event.preventDefault()
+    const {name, phone} = Object.fromEntries(new FormData(form).entries())
+    const text = `Имя: ${name},\nНомер:${phone}`
+    fetch(URL_API, {
+        method:'POST',
+        headers: {"Content-Type": "application/json"},
+        body:JSON.stringify({
+            chat_id: chat_id,
+            text: text,
+        })
+    })
+}

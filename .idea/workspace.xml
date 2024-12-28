@@ -4,14 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="733efc4d-a2ed-4b03-b37a-512a081ff1bd" name="Changes" comment="DZ5">
+    <list default="true" id="733efc4d-a2ed-4b03-b37a-512a081ff1bd" name="Changes" comment="DZ7">
+      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/character.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/character.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/episodes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/part.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titans.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1645409881_1-kartinkin-net-p-kartinki-iz-mangi-ataka-titanov-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/21457305_ataka_titanov_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4tom.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Eren.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Koloss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Manga-Ataka-titanov-Levi-kartinki-i-fragmenty-11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/annie_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aot-city-game.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aot-wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/armin_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background-aot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background3-transformed.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_stone_dark.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bgs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blood-splash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/connie_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/episodes/1-sezon-1-seriya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eren_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eren_titan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/f594a4cc-284d-450e-b575-76aae69f7a9d.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/falco_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gabi_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hans_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/historia_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jean_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lesson.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lesson1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/levi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/levi2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/levi3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/levi_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/maska.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mikasa_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pieck_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reiner_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/titan-enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/titan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/two.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/upscaled_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/woman.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zeke_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zvero.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/character.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/character.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/2season.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/2season1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/3season.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/trailer__background.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/videoplayback.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home_works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home_works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lessons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lessons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/monster.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/monster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lessons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,29 +119,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/OneDrive/Рабочий стол/geeks__3/project/project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.card.js.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/OneDrive/Рабочий стол/test2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Node.js.card.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="card.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/card.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.card.js" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -114,7 +213,10 @@
       <workItem from="1734336901766" duration="10597000" />
       <workItem from="1734524241993" duration="2380000" />
       <workItem from="1734605727309" duration="4995000" />
-      <workItem from="1734664980347" duration="2827000" />
+      <workItem from="1734664980347" duration="4328000" />
+      <workItem from="1734684226698" duration="2321000" />
+      <workItem from="1735061676878" duration="6197000" />
+      <workItem from="1735185232220" duration="20119000" />
     </task>
     <task id="LOCAL-00001" summary="characters">
       <option name="closed" value="true" />
@@ -140,7 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734524306889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DZ6">
+      <option name="closed" value="true" />
+      <created>1734670337027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734670337027</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DZ7">
+      <option name="closed" value="true" />
+      <created>1735201507663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735201507664</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +267,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="characters" />
     <MESSAGE value="DZ5" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ5" />
+    <MESSAGE value="DZ6" />
+    <MESSAGE value="DZ7" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ7" />
   </component>
 </project>

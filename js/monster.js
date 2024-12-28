@@ -11,7 +11,13 @@ function init(elemId) {
         c = canvas.getContext("2d"),
         w = (canvas.width = window.innerWidth),
         h = (canvas.height = window.innerHeight);
-    c.fillStyle = "rgba(30,30,30,1)";
+    
+    let gradient = c.createLinearGradient(0, 0, 0, h);
+    gradient.addColorStop(0, "rgba(26, 0, 0, 0.4)");
+    gradient.addColorStop(0.5, "rgba(26, 0, 0, 0.7)");
+    gradient.addColorStop(1, "rgba(26, 0, 0, 0.9)");
+    
+    c.fillStyle = gradient;
     c.fillRect(0, 0, w, h);
     return {c: c, canvas: canvas};
 }
@@ -119,12 +125,7 @@ window.onload = function () {
                 for (let i = 0; i < this.n; i++) {
                     this.segments[i].show();
                 }
-                c.strokeStyle =
-                    "hsl(" +
-                    (this.rand * 60 + 180) +
-                    ",100%," +
-                    (this.rand * 60 + 25) +
-                    "%)";
+                c.strokeStyle = `hsl(${this.rand * 30}, 100%, ${this.rand * 40 + 25}%)`;
                 c.lineWidth = this.rand * 2;
                 c.lineCap = "round";
                 c.lineJoin = "round";
@@ -137,10 +138,10 @@ window.onload = function () {
             c.beginPath();
             if (dist(this.x, this.y, target.x, target.y) <= this.l) {
                 c.arc(this.x, this.y, 2 * this.rand + 1, 0, 2 * Math.PI);
-                c.fillStyle = "white";
+                c.fillStyle = "rgba(255, 0, 0, 0.8)";
             } else {
                 c.arc(this.x, this.y, this.rand * 2, 0, 2 * Math.PI);
-                c.fillStyle = "darkcyan";
+                c.fillStyle = "rgba(170, 0, 0, 0.5)";
             }
             c.fill();
         }
@@ -170,6 +171,15 @@ window.onload = function () {
     }
 
     function draw() {
+        // Очищаем canvas с градиентом
+        let gradient = c.createLinearGradient(0, 0, 0, h);
+        gradient.addColorStop(0, "rgba(26, 0, 0, 0.4)");
+        gradient.addColorStop(0.5, "rgba(26, 0, 0, 0.7)");
+        gradient.addColorStop(1, "rgba(26, 0, 0, 0.9)");
+        
+        c.fillStyle = gradient;
+        c.fillRect(0, 0, w, h);
+
         if (mouse.x) {
             target.errx = mouse.x - target.x;
             target.erry = mouse.y - target.y;
@@ -199,7 +209,7 @@ window.onload = function () {
             0,
             2 * Math.PI
         );
-        c.fillStyle = "hsl(210,100%,80%)";
+        c.fillStyle = "rgba(255, 50, 50, 0.8)";
         c.fill();
 
         for (let i = 0; i < numT; i++) {
